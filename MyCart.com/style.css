@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color: #96d9ef;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    padding: 0 8px 0 15px;
+}
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.search input{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+.btn{
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+    width: 60px;
+    border-color: white;
+    position: relative;
+    right: 68px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bold;
+}
+/* .login{
+    background-color: var(--main-bg-color);
+    position: relative;
+    left: 35vw;
+    border: none;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+.login:hover{
+    color: darkgray;
+} */
+.container{
+    min-height: calc(100vh - 55px - 5vh);
+}
+.slider{
+    width: 90vw;
+    margin: 15px 5vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 95vw;
+    margin: 40px  auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow: scroll;
+    background-color: aliceblue;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px ;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    height: 5vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
