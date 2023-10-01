@@ -197,11 +197,11 @@ html{
 .text-footer{
     text-align: center;
     padding: 30px 0;
-   font-family: 'Ubuntu', sans-serif; 
-   display: flex;
-   justify-content: center;
-   color: white;
-   
+    font-family: 'Ubuntu', sans-serif; 
+    display: flex;
+    justify-content: center;
+    color: white;
+    
 }
 
 .burger{
