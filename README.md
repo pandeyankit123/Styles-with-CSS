@@ -51,7 +51,7 @@
 <h3>11. SaaaaaS</h3>
 <p>
     . Dated: 31 August 2023 <br>
-    . A SAS(Statistical Analysis System) website template is a pre-designed digital framework that serves as a foundation for creating websites <br>
+    . A SAS(Software as Services) website template is a pre-designed digital framework that serves as a foundation for creating websites <br>
 </p>
 <h3>12. GoFit</h3>
 <p>
